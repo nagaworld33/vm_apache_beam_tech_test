@@ -36,7 +36,7 @@ python -m TransactionBatchJob --input_file gs://cloud-samples-data/bigquery/samp
 python -m CompositeTransform --input_file gs://cloud-samples-data/bigquery/sample-transactions/transactions.csv
 ```
 
-## Guide to Unit test 
+## Guide to run Unit test 
 ```
 python -m unittest CompositeTransformTest.py
 ```
